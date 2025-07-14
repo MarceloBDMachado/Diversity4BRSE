@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 
 # Load the dataset
-df = pd.read_csv('data_teams.csv')
+df = pd.read_csv('data/data_teams.csv')
 
 # Select Likert-scale columns
 likert_cols = ['Race/Ethnicity', 'Gender/Sexuality', 'Neurodivergency', 'Disability', 'Elderly']
